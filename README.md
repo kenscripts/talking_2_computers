@@ -1,5 +1,3 @@
-All things related to talking to computers. Includes things I've learned, ideas, and helpful resources.
-
 # Table of Contents
 
 # Learning Timeline
