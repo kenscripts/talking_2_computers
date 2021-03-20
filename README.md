@@ -4,10 +4,10 @@
 * learned how to use ggplot2 in R language
 * went to Microbiome workshop in Germany
 * read Practical Computing For Biologists
-  * introduced me Linux, regular expressions, and Python
+  * introduced me Linux, bash, regular expressions, and Python
 * learned basics (variables, conditionals, loops) with Python
   * used Learn Python The Hard Way 
-* learned more about Linux
+* learned more about Linux and bash
 * started using Github
 * became a part of the CAREERS Cyberteam at RU
   * started to learn about high performance computing
@@ -15,7 +15,7 @@
   * introduced me to containers and Docker
 
 # Languages
-* Linux
+* Bash 
 * R
 * Python
 
