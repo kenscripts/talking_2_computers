@@ -20,6 +20,7 @@
 * Python
 
 # Software
+* Linux
 * Github
 * Docker
 * HPC
