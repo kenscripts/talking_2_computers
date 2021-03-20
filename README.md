@@ -9,9 +9,9 @@
   * used Learn Python The Hard Way 
 * learned more about Linux and bash
 * started using Github
-* became a part of the CAREERS Cyberteam at RU
+* became a part of the CAREERS Cyberteam at RU (2021 Fall)
   * started to learn about high performance computing
-* took a CyVerse Container Workshop
+* took a CyVerse Container Workshop (2021 Fall)
   * introduced me to containers and Docker
 
 # Languages
