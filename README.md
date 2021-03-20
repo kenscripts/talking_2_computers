@@ -5,6 +5,7 @@
 * went to Microbiome workshop in Germany
 * read Practical Computing For Biologists
   * introduced me Linux, bash, regular expressions, and Python
+* settled on Vim as my text editor
 * learned basics (variables, conditionals, loops) with Python
   * used Learn Python The Hard Way 
 * learned more about Linux and bash
