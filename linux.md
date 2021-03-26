@@ -12,11 +12,11 @@ Things related to the Linux operating system.
  * [chroot](https://en.wikipedia.org/wiki/Chroot)
 
 # Commands
-## Moving Around
+### Moving Around
  * dirname and basename
     * given file path, [dirname](https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path) returns path of file
     * given file path, [basename](https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path) returns name of file 
-## Data Wrangling
+### Data Wrangling
  * cut
      * [a range of columns](https://stackoverflow.com/questions/4956873/how-to-cut-first-n-and-last-n-columns/51005303)
         > `# returns up to column 2`\
