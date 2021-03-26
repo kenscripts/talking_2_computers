@@ -22,7 +22,7 @@
 
 # Software
 * Linux
-* Github
+* [Github](https://github.com/kenscripts/talking_2_computers/blob/main/github.md)
 * Docker
 * HPC
 * Software
