@@ -27,4 +27,4 @@ Things related to the Linux operating system.
         > `cut -f 2-4 $FILE`\
      * [split string and get n element](https://unix.stackexchange.com/questions/312280/split-string-by-delimiter-and-get-n-th-element/312400) 
         > `# returns the string "two"`\
-        > `echo "one_two_three" | cut -d"_" -f2 
+        > `echo "one_two_three" | cut -d"_" -f2`
