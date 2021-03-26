@@ -21,7 +21,7 @@
 * Python
 
 # Software
-* Linux
+* [Linux](https://github.com/kenscripts/talking_2_computers/blob/main/linux.md)
 * [Github](https://github.com/kenscripts/talking_2_computers/blob/main/github.md)
 * Docker
 * HPC
