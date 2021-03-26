@@ -20,6 +20,6 @@ Things related to the Linux operating system.
         > `cut -f 2- $FILE`\
         > `# returns columns 2 to 4`\
         > `cut -f 2-4 $FILE`\
-* [dirname and basename] (https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path)
+* [dirname and basename](https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path)
     * given file path, dirname returns path of file
     * given file path, basename returns name of file 
