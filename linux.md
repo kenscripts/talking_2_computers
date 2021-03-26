@@ -13,5 +13,5 @@ Things related to the Linux operating system.
 
 # Commands
  * cut
-  * [a range of columns](https://stackoverflow.com/questions/4956873/how-to-cut-first-n-and-last-n-columns/51005303)
-   * second index
+ * [a range of columns](https://stackoverflow.com/questions/4956873/how-to-cut-first-n-and-last-n-columns/51005303)
+    * second index  
