@@ -12,6 +12,11 @@ Things related to the Linux operating system.
  * [chroot](https://en.wikipedia.org/wiki/Chroot)
 
 # Commands
+## Moving Around
+ * dirname and basename
+    * given file path, [dirname](https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path) returns path of file
+    * given file path, [basename](https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path) returns name of file 
+## Data Wrangling
  * cut
      * [a range of columns](https://stackoverflow.com/questions/4956873/how-to-cut-first-n-and-last-n-columns/51005303)
         > `# returns up to column 2`\
@@ -20,6 +25,3 @@ Things related to the Linux operating system.
         > `cut -f 2- $FILE`\
         > `# returns columns 2 to 4`\
         > `cut -f 2-4 $FILE`\
-* dirname and basename
-    * given file path, [dirname](https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path) returns path of file
-    * given file path, [basename](https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path) returns name of file 
