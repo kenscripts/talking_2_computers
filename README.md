@@ -1,6 +1,6 @@
 # Table of Contents
 
-# Learning Timeline
+# Learning Journey
 * learned how to use ggplot2 in R language
 * went to Microbiome workshop in Germany
 * read Practical Computing For Biologists
