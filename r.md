@@ -5,13 +5,13 @@
           > `# prevents the creation of unnecessary variable` \
           > `merge(` \
           > `      LAB.COUNT,` \
-          > `      NOVOGENE.COUNT,` \
-          > `      by = "gene_id"` \
-          > `      )[-1] %>%` \
+          > `      NOVOGENE.COUNT,` \
+          > `      by = "gene_id"` \
+          > `      )[-1] %>%` \
           > `cor(method = "spearman") %>%` \
           > `round(2) %>%` \
           > `write.table(` \
-          > `            "exp07-correlation_matrix.tsv",` \
-          > `            sep = "\t",` \
-          > `            quote = F` \
-          > `            )` \   
+          > `            "exp07-correlation_matrix.tsv",` \
+          > `            sep = "\t",` \
+          > `            quote = F` \
+          > `            )` \   
