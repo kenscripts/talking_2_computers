@@ -4,7 +4,7 @@
       * first use of R pipe
           > `# prevents the creation of unnecessary variable` \
           > `merge(` \
-          > `      LAB.COUNT,` \
+          > `      LAB.COUNT,` \
           > `      NOVOGENE.COUNT,` \
           > `      by = "gene_id"` \
           > `      )[-1] %>%` \
