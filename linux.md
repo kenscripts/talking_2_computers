@@ -45,3 +45,5 @@ Things related to the Linux operating system.
         > `jq -r '.key | to_entries | (map(.key),map(.value)) $JSON`\
         > `# convert lists to tsv` \
         > `jq -r '.key | to_entries | (map(.key),map(.value)) | @tsv' $JSON`\
+     * [display multiple keys from json](https://stackoverflow.com/questions/28164849/using-jq-to-parse-and-display-multiple-fields-in-a-json-serially)
+        >`jq -r '.<key>[] | .<key 1> + "<delimiter>" + .<key 2>' $JSON`\ 
