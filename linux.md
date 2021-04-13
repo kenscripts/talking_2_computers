@@ -31,3 +31,12 @@ Things related to the Linux operating system.
      * [split string and get n element](https://unix.stackexchange.com/questions/312280/split-string-by-delimiter-and-get-n-th-element/312400) 
         > `# returns the string "two"`\
         > `echo "one_two_three" | cut -d"_" -f2`
+## Parsers
+ * jq
+     * [converting to tsv](https://stackoverflow.com/questions/48764829/jq-cannot-be-tsv-formatted-only-array-error)
+        > `# turn original keys to key,value keys`\
+        > `jq -r '.key | to_entries' $JSON
+        > `# iterate through keys and values and generate lists` \
+        > `jq -r '.key | to_entries | (map(.key),map(.value)) $JSON`\
+        > `# convert lists to tsv` \
+        > `jq -r '.key | to_entries | (map(.key),map(.value)) | @tsv' $JSON`\
