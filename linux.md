@@ -33,9 +33,9 @@ Things related to the Linux operating system.
         > `echo "one_two_three" | cut -d"_" -f2`
 ## Parsers
  * jq
-     * [converting to tsv](https://stackoverflow.com/questions/48764829/jq-cannot-be-tsv-formatted-only-array-error)
+     * [converting json to tsv](https://stackoverflow.com/questions/48764829/jq-cannot-be-tsv-formatted-only-array-error)
         > `# turn original keys to key,value keys`\
-        > `jq -r '.key | to_entries' $JSON
+        > `jq -r '.key | to_entries' $JSON` \
         > `# iterate through keys and values and generate lists` \
         > `jq -r '.key | to_entries | (map(.key),map(.value)) $JSON`\
         > `# convert lists to tsv` \
