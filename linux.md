@@ -37,7 +37,7 @@ Things related to the Linux operating system.
         > `# determine primary json keys`\
         > `jq -r 'keys' $JSON`\
         > `# determine keys within key`\
-        > `jq -r '.<key> | keys' $JSON`\  
+        > `jq -r '.<key> | keys' $JSON`\
      * [converting json to tsv](https://stackoverflow.com/questions/48764829/jq-cannot-be-tsv-formatted-only-array-error)
         > `# turn original keys to key,value keys`\
         > `jq -r '.key | to_entries' $JSON` \
