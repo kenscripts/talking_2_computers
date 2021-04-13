@@ -32,7 +32,7 @@ Things related to the Linux operating system.
         > `# returns the string "two"`\
         > `echo "one_two_three" | cut -d"_" -f2`
 ## Parsers
- * jq
+ * jq (linux json parser)
      * [converting json to tsv](https://stackoverflow.com/questions/48764829/jq-cannot-be-tsv-formatted-only-array-error)
         > `# turn original keys to key,value keys`\
         > `jq -r '.key | to_entries' $JSON` \
