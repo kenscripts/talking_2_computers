@@ -46,4 +46,8 @@ Things related to the Linux operating system.
         > `# convert lists to tsv` \
         > `jq -r '.key | to_entries | (map(.key),map(.value)) | @tsv' $JSON`\
      * [display multiple keys from json](https://stackoverflow.com/questions/28164849/using-jq-to-parse-and-display-multiple-fields-in-a-json-serially)
-        >`jq -r '.<key>[] | .<key 1> + "<delimiter>" + .<key 2>' $JSON`\ 
+        >`jq -r '.<key>[] | .<key 1> + "<delimiter>" + .<key 2>' $JSON`\
+     * [filter keys containing string](https://stackoverflow.com/questions/51869431/using-jq-select-elements-with-keys-containing-some-string-key-preserved-in-resu)
+        >`jq -r '.<key> | select (.<key> | contains("<string>"))' $JSON\
+     * [filter keys based on value](https://stackoverflow.com/questions/18592173/select-objects-based-on-value-of-variable-in-object-using-jq)
+        >`jq -r '.<key> | select(.<filter key> == <value>) | .<desired key>' $JSON`\   
