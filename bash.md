@@ -15,7 +15,7 @@
         > `# string 1`\
         > `FIRSTNAME="Kenneth"`\
         > `# string 2`\
-        > `LASTNAME="Kenneth"`\
+        > `LASTNAME="Acosta"`\
         > `# concatenate`\
         > `FULLNAME="$FIRSTNAME$LASTNAME"`\
 
