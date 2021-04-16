@@ -1,10 +1,10 @@
 # Table of Contents
-* Navigating Linux
+* Moving Around
 * Strings
 * Data Wrangling
 * Parsers
 
-# Navigating Linux
+# Moving Around
 * dirname and basename
     * given file path, [dirname](https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path) returns path of file
     * given file path, [basename](https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path) returns name of file 
