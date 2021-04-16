@@ -33,6 +33,13 @@
         > `echo "one_two_three" | cut -d"_" -f2`
 * sed
     * [using variables within sed](https://askubuntu.com/questions/76808/how-do-i-use-variables-in-a-sed-command)
+* awk
+    * [converting float to integer](https://stackoverflow.com/questions/12929848/how-make-float-to-integer-in-awk)
+* grep
+    * options
+        > `-h = no filename`\
+        > `-o = prints only the matching part of the line`\
+
 # Parsers
 * jq (json parser)
      * determine json structure
