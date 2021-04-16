@@ -16,7 +16,7 @@
   * introduced me to containers and Docker
 
 # Languages
-* Bash 
+* [Bash](https://github.com/kenscripts/talking_2_computers/blob/main/bash.md) 
 * R
 * Python
 
