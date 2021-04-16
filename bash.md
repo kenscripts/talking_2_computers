@@ -38,7 +38,7 @@
 * grep
     * options
         > `-h = no filename`\
-        > `-o = prints only the matching part of the line`\
+        > `-o = prints only the matching part of the line`
 
 # Parsers
 * jq (json parser)
