@@ -32,7 +32,7 @@
         > `# returns the string "two"`\
         > `echo "one_two_three" | cut -d"_" -f2`
 * sed
-    * [using variables within sed](https://askubuntu.com/questions/76808/how-do-i-use-variables-in-a-sed-command)
+    * [use double-quotes to use shell variables within sed](https://askubuntu.com/questions/76808/how-do-i-use-variables-in-a-sed-command)
 * awk
     * [converting float to integer](https://stackoverflow.com/questions/12929848/how-make-float-to-integer-in-awk)
     * [count columns in a file](https://stackoverflow.com/questions/8629330/unix-count-of-columns-in-file)
