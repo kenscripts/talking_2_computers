@@ -35,6 +35,10 @@
     * [using variables within sed](https://askubuntu.com/questions/76808/how-do-i-use-variables-in-a-sed-command)
 * awk
     * [converting float to integer](https://stackoverflow.com/questions/12929848/how-make-float-to-integer-in-awk)
+    * [count columns in a file](https://stackoverflow.com/questions/8629330/unix-count-of-columns-in-file)
+        > `# count number of fields; quit after 1st line`\
+        > `awk -F"<delimiter>" {print NF; exit}' $INPUT`\
+
 * grep
     * options
         > `-h = no filename`\
