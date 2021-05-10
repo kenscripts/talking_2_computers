@@ -10,15 +10,21 @@
     * given file path, [basename](https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path) returns name of file 
 
 # Strings
-* operations
-    * [concatenating strings]( https://linuxize.com/post/bash-concatenate-strings/)
-        > `# string 1`\
-        > `FIRSTNAME="Kenneth"`\
-        > `# string 2`\
-        > `LASTNAME="Acosta"`\
-        > `# concatenate`\
-        > `FULLNAME="$FIRSTNAME$LASTNAME"`\
-
+* [concatenating strings]( https://linuxize.com/post/bash-concatenate-strings/)
+   > `# string 1`\
+   > `FIRSTNAME="Kenneth"`\
+   > `# string 2`\
+   > `LASTNAME="Acosta"`\
+   > `# concatenate`\
+   > `FULLNAME="$FIRSTNAME$LASTNAME"`\
+* [slicing strings using specific character](https://stackoverflow.com/questions/4168371/how-can-i-remove-all-text-after-a-character-in-bash#:~:text=In%20Bash%20(and%20ksh%2C%20zsh,matching%20string%20will%20be%20removed.)
+   > `# string variable`\
+   > `MYNAME="Kenneth Acosta"`\
+   > `# get substring before underscore`\
+   > `${MYNAME%_#}`\
+   > `# get substring after underscore`\
+   > `${MYNAME%_*}`
+    
 # Data Wrangling
 * cut
     * [a range of columns](https://stackoverflow.com/questions/4956873/how-to-cut-first-n-and-last-n-columns/51005303)
