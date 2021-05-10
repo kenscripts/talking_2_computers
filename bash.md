@@ -18,7 +18,7 @@
    > `# concatenate`\
    > `FULLNAME="$FIRSTNAME$LASTNAME"`\
 * [slice string using specific character](https://stackoverflow.com/questions/4168371/how-can-i-remove-all-text-after-a-character-in-bash#:~:text=In%20Bash%20(and%20ksh%2C%20zsh,matching%20string%20will%20be%20removed.)
-> `# string variable`\
+   > `# string variable`\
    > `MYNAME="Kenneth_Acosta"`\
    > `# get substring before underscore`\
    > `${MYNAME%_#}`\
