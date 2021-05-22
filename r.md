@@ -1,18 +1,40 @@
+# Iteration
+* [mapply](https://www.r-bloggers.com/2019/12/mapply-and-map-in-r/)
+   * like sapply but allows you to iterate through multiple vectors
+   * first use of mapply
+      > `# function parameters represent vector elements; should be in same order` \
+      > `# in the example below, I was able to iterate through log2FoldChange and padj vectors` \
+      > `G26.DEG.FIL$change <- mapply(` \
+      > `                             function(lfc,padj){` \
+      > `                                                ifelse(` \
+      > `                                                       lfc > 0 & padj < 0.05,` \
+      > `                                                       "up_regulated",` \
+      > `                                                       ifelse(` \
+      > `                                                              lfc < 0 & padj < 0.05,` \
+      > `                                                              "down_regulated",` \
+      > `                                                              "no_major_difference"` \
+      > `                                                              )` \   
+      > `                                                       )` \   
+      > `                                                },` \  
+      > `                             G26.DEG.FIL$log2FoldChange,` \
+      > `                             G26.DEG.FIL$padj` \
+      > `                             )` \ 
+
 # Code Readability
-  * Pipe (%>%)
-      * [Pipes In R Tutorial](https://www.datacamp.com/community/tutorials/pipe-r-tutorial)
-      * first use of R pipe
-          > `# prevents the creation of unnecessary variables` \
-          > `# this is so much cleaner and easier to read` \
-          > `merge(` \
-          > `      LAB.COUNT,` \
-          > `      NOVOGENE.COUNT,` \
-          > `      by = "gene_id"` \
-          > `      )[-1] %>%` \
-          > `cor(method = "spearman") %>%` \
-          > `round(2) %>%` \
-          > `write.table(` \
-          > `            "exp07-correlation_matrix.tsv",` \
-          > `            sep = "\t",` \
-          > `            quote = F` \
-          > `            )`   
+* Pipe (%>%)
+   * [Pipes In R Tutorial](https://www.datacamp.com/community/tutorials/pipe-r-tutorial)
+   * first use of R pipe
+      > `# prevents the creation of unnecessary variables` \
+      > `# this is so much cleaner and easier to read` \
+      > `merge(` \
+      > `      LAB.COUNT,` \
+      > `      NOVOGENE.COUNT,` \
+      > `      by = "gene_id"` \
+      > `      )[-1] %>%` \
+      > `cor(method = "spearman") %>%` \
+      > `round(2) %>%` \
+      > `write.table(` \
+      > `            "exp07-correlation_matrix.tsv",` \
+      > `            sep = "\t",` \
+      > `            quote = F` \
+      > `            )`   
