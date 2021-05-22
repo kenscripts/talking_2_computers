@@ -6,19 +6,19 @@
       > `# in the example below, I was able to iterate through log2FoldChange and padj vectors` \
       > `G26.DEG.FIL$change <- mapply(` \
       > `                             function(lfc,padj){` \
-      > `                                                ifelse(` \
-      > `                                                       lfc > 0 & padj < 0.05,` \
-      > `                                                       "up_regulated",` \
-      > `                                                       ifelse(` \
-      > `                                                              lfc < 0 & padj < 0.05,` \
-      > `                                                              "down_regulated",` \
-      > `                                                              "no_major_difference"` \
-      > `                                                              )` \   
-      > `                                                       )` \   
-      > `                                                },` \  
-      > `                             G26.DEG.FIL$log2FoldChange,` \
-      > `                             G26.DEG.FIL$padj` \
-      > `                             )` 
+      > `                                                ifelse(` \
+      > `                                                       lfc > 0 & padj < 0.05,` \
+      > `                                                       "up_regulated",` \
+      > `                                                       ifelse(` \
+      > `                                                              lfc < 0 & padj < 0.05,` \
+      > `                                                              "down_regulated",` \
+      > `                                                              "no_major_difference"` \
+      > `                                                              )` \   
+      > `                                                       )` \   
+      > `                                                },` \  
+      > `                             G26.DEG.FIL$log2FoldChange,` \
+      > `                             G26.DEG.FIL$padj` \
+      > `                             )` 
 
 # Code Readability
 * Pipe (%>%)
