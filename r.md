@@ -5,7 +5,7 @@
       > `# function parameters represent vector elements; should be in same order` \
       > `# in the example below, I was able to iterate through log2FoldChange and padj vectors` \
       > `G26.DEG.FIL$change <- mapply(` \
-      > `                             function(lfc,padj){` \
+      > `                             function(lfc,padj){` \
       > `                                                ifelse(` \
       > `                                                       lfc > 0 & padj < 0.05,` \
       > `                                                       "up_regulated",` \
