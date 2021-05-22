@@ -18,7 +18,7 @@
       > `                                                },` \  
       > `                             G26.DEG.FIL$log2FoldChange,` \
       > `                             G26.DEG.FIL$padj` \
-      > `                             )` \ 
+      > `                             )` 
 
 # Code Readability
 * Pipe (%>%)
