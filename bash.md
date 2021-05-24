@@ -5,9 +5,12 @@
 * Parsers
 
 # Moving Around
+* ls
+   * [show only file name without file path](https://stackoverflow.com/questions/8518750/to-show-only-file-name-without-the-entire-directory-path)
+   > `ls $DIRECTORY/* | xargs -n 1 basename`  
 * dirname and basename
-    * given file path, [dirname](https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path) returns path of file
-    * given file path, [basename](https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path) returns name of file 
+   * given file path, [dirname](https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path) returns path of file
+   * given file path, [basename](https://stackoverflow.com/questions/6121091/how-to-get-a-file-directory-path-from-file-path) returns name of file 
 
 # Strings
 * [concatenating strings]( https://linuxize.com/post/bash-concatenate-strings/)
