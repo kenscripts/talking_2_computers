@@ -27,7 +27,11 @@
    > `${MYNAME%_#}`\
    > `# get substring after underscore`\
    > `${MYNAME%_*}`
-    
+* [repeat a string n times](https://superuser.com/questions/86340/linux-command-to-repeat-a-string-n-times)
+     > `# code to repeat string as long as file column` \
+     > `TIMES=$(wc -l $FILE | cut -f1 -d" "` \
+     > `yes "<string>" | head -n $TIMES`
+
 # Data Wrangling
 * cut
     * [a range of columns](https://stackoverflow.com/questions/4956873/how-to-cut-first-n-and-last-n-columns/51005303)
