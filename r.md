@@ -20,6 +20,10 @@
       > `                             G26.DEG.FIL$padj` \
       > `                             )` 
 
+# Data Wrangling w/ Dataframes
+* [divide columns by certain column](https://stackoverflow.com/questions/47821241/how-to-divide-a-number-of-columns-by-one-column-in-r)
+* [divide each cell by sum of row/column](https://stackoverflow.com/questions/48140258/dividing-each-cell-in-a-data-set-by-the-column-sum-in-r)
+
 # Code Readability
 * Pipe (%>%)
    * [Pipes In R Tutorial](https://www.datacamp.com/community/tutorials/pipe-r-tutorial)
