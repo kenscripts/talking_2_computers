@@ -58,7 +58,8 @@
         > `-o = prints only the matching part of the line` \
         > `-m <n> = stop reading the file after n matches`
 
-# Parsers
+# Files
+* [looping through lines in file](https://stackoverflow.com/questions/1521462/looping-through-the-content-of-a-file-in-bash)
 * jq (json parser)
      * determine json structure
         > `# determine primary json keys`\
