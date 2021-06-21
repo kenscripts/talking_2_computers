@@ -19,7 +19,17 @@
       > `                             G26.DEG.FIL$log2FoldChange,` \
       > `                             G26.DEG.FIL$padj` \
       > `                             )` 
-
+# Data Wrangling w/ Dataframes
+* [find common elements between multiple vectors](https://stackoverflow.com/questions/3695677/how-to-find-common-elements-from-multiple-vectors)
+   > `CORE.GENES <- Reduce(`\
+   > `                     intersect,`\
+   > `                     list(`\
+   > `                          G26.UP[,1],`\
+   > `                          DAB1A.UP[,1],`\
+   > `                          SP7.UP[,1],`\
+   > `                          SP245.UP[,1]`\
+   > `                          )`\   
+   > `                     )`
 # Data Wrangling w/ Dataframes
 * column-wise
    * [divide columns by certain column](https://stackoverflow.com/questions/47821241/how-to-divide-a-number-of-columns-by-one-column-in-r)
