@@ -31,7 +31,7 @@
          > `CORE.LOGFC <- Reduce(`\
          > `                     function(x,y) merge(x,y,all=TRUE),` \
          > `                     list(` \ 
-         > `                          G26.UP[,c(1,3)],` \
+         > `                          G26.UP[,c(1,3)],` \
          > `                          DAB1A.UP[,c(1,3)],` \
          > `                          SP7.UP[,c(1,3)],` \
          > `                          SP245.UP[,c(1,3)]` \
