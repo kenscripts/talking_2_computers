@@ -34,6 +34,17 @@
 * column-wise
    * [divide columns by certain column](https://stackoverflow.com/questions/47821241/how-to-divide-a-number-of-columns-by-one-column-in-r)
    * [divide each cell by sum of row/column](https://stackoverflow.com/questions/48140258/dividing-each-cell-in-a-data-set-by-the-column-sum-in-r)
+* row-wise
+   * [collapse rows by group](https://www.tutorialspoint.com/how-to-collapse-data-frame-rows-in-r-by-summing-using-dplyr)
+      > `# merge two dataframes and count instances of each group in Module Metabolism`\
+      > `merge(`\
+      > `      filter(DEG.G26, change == "down_regulated")[1],`\
+      > `      LM.MOD,`\
+      > `      by = "query_name",`\
+      > `      all.x = TRUE`\
+      > `      ) %>%`\
+      > `group_by(Module_Metabolism) %>%`\
+      > `summarise(n())` 
 * combining dataframes
    * use merge to combine dataframes by rows
       * [use merge and reduce to combine multiple dataframes](https://stackoverflow.com/questions/14096814/merging-a-lot-of-data-frames)
