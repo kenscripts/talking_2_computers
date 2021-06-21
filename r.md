@@ -21,8 +21,22 @@
       > `                             )` 
 
 # Data Wrangling w/ Dataframes
-* [divide columns by certain column](https://stackoverflow.com/questions/47821241/how-to-divide-a-number-of-columns-by-one-column-in-r)
-* [divide each cell by sum of row/column](https://stackoverflow.com/questions/48140258/dividing-each-cell-in-a-data-set-by-the-column-sum-in-r)
+* column-wise
+   * [divide columns by certain column](https://stackoverflow.com/questions/47821241/how-to-divide-a-number-of-columns-by-one-column-in-r)
+   * [divide each cell by sum of row/column](https://stackoverflow.com/questions/48140258/dividing-each-cell-in-a-data-set-by-the-column-sum-in-r)
+* combining dataframes
+   * use merge to combine dataframes by rows
+      * [use merge and reduce to combine multiple dataframes](https://stackoverflow.com/questions/14096814/merging-a-lot-of-data-frames)
+         > `# merged using values from first columns`
+         > `CORE.LOGFC <- Reduce(` \
+         > `                     function(x,y) merge(x,y,all=TRUE),` \ 
+         > `                     list(` \
+         > `                          G26.UP[,c(1,3)],` \
+         > `                          DAB1A.UP[,c(1,3)],` \
+         > `                          SP7.UP[,c(1,3)],` \
+         > `                          SP245.UP[,c(1,3)]` \
+         > `                          )` \   
+         > `                     )`   
 
 # Code Readability
 * Pipe (%>%)
