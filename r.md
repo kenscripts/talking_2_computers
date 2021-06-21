@@ -47,7 +47,7 @@
          > `                          SP245.UP[,c(1,3)]`\
          > `                          )`\
          > `                     )` 
-
+* [converting dataframe columns to vectors](https://stackoverflow.com/questions/7070173/convert-data-frame-column-to-a-vector)
 # Code Readability
 * Pipe (%>%)
    * [Pipes In R Tutorial](https://www.datacamp.com/community/tutorials/pipe-r-tutorial)
