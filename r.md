@@ -19,7 +19,7 @@
       > `                             G26.DEG.FIL$log2FoldChange,` \
       > `                             G26.DEG.FIL$padj` \
       > `                             )` 
-# Data Wrangling w/ Dataframes
+# Data Wrangling w/ Vectors
 * [find common elements between multiple vectors](https://stackoverflow.com/questions/3695677/how-to-find-common-elements-from-multiple-vectors)
    > `CORE.GENES <- Reduce(`\
    > `                     intersect,`\
