@@ -41,7 +41,7 @@
       > `      filter(DEG.G26, change == "down_regulated")[1],`\
       > `      LM.MOD,`\
       > `      by = "query_name",`\
-      > `      all.x = TRUE`\
+      > `      all.x = TRUE`\
       > `      ) %>%`\
       > `group_by(Module_Metabolism) %>%`\
       > `summarise(n())` 
