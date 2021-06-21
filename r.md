@@ -27,7 +27,7 @@
 * combining dataframes
    * use merge to combine dataframes by rows
       * [use merge and reduce to combine multiple dataframes](https://stackoverflow.com/questions/14096814/merging-a-lot-of-data-frames)
-         > `# merged using values from first columns`
+         > `# merged using values from first columns` \
          > `CORE.LOGFC <- Reduce(` \
          > `                     function(x,y) merge(x,y,all=TRUE),` \ 
          > `                     list(` \
