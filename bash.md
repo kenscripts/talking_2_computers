@@ -36,11 +36,11 @@
 * cut
     * [a range of columns](https://stackoverflow.com/questions/4956873/how-to-cut-first-n-and-last-n-columns/51005303)
         > `# returns up to column 2`\
-        >  `cut -f -2 $FILE`\
+        >  `cut -f -2 $INPUT`\
         > `# returns everything after column 2`\
-        > `cut -f 2- $FILE`\
+        > `cut -f 2- $INPUT`\
         > `# returns columns 2 to 4`\
-        > `cut -f 2-4 $FILE`
+        > `cut -f 2-4 $INPUT`
     * [split string and get n element](https://unix.stackexchange.com/questions/312280/split-string-by-delimiter-and-get-n-th-element/312400) 
         > `# returns the string "two"`\
         > `echo "one_two_three" | cut -d"_" -f2`
@@ -51,7 +51,8 @@
     * [count columns in a file](https://stackoverflow.com/questions/8629330/unix-count-of-columns-in-file)
         > `# count number of fields; quit after 1st line`\
         > `awk -F"<delimiter>" {print NF; exit}' $INPUT`\
-
+    * [return first instance of a variable](https://stackoverflow.com/questions/13581225/bash-output-the-line-with-highest-value)    
+        > `awk '!seen[$1]++' $INPUT`
 * grep
     * options
         > `-h = no filename`\
